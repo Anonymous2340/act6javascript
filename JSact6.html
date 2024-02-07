@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dumato">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+        }
+
+        .container h1 {
+            padding-bottom: 15px;
+        }
+
+        .container p {
+            font-size: 20px;
+            padding-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .container button {
+            font-size: 18px;
+            padding: 2px 7px;
+            outline: none;
+            border: none;
+            transition: 0.5s ease-in-out;
+            border-radius: 10px;
+        }
+
+        .container button:hover {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>10 + 10 = ?</h1>
+        <p id="demo">What is the sum?</p>
+        <button type="button" onclick="console.log(10 + 10)">Answer</button>
+    </div>
+</body>
+</html>
